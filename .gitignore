@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Python Cache
+.cache/
+
+# Docker
+.dockerignore
+
+# Model Files (Optional)
+# Uncomment the next line only if you DON'T want to upload the trained model.
+# model/iris_model.pkl
