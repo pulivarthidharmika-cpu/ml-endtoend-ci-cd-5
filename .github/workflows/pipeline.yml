@@ -44,8 +44,9 @@ jobs:
 
       - name: Tag Docker Image
         run: |
-          docker tag mlops-final ammulya2005/mlops-final:latest
+          docker tag mlops-final dharmikasayee29/mlops-final:latest
 
       - name: Push Docker Image
         run: |
-          docker push ammulya2005/mlops-final:latest
+          docker push dharmikasayee29/mlops-final:latest
+          
